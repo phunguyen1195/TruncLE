@@ -1,0 +1,13 @@
+config:  
+  policy_type: MlpPolicy
+  total_timesteps: 100000
+  alpha:
+    alpha1: 0.020051244039549988
+  learning_rate: 0.00040404947251807303
+  gamma: 0.9707213813656388
+  reward_type: quadratic
+  max: False
+
+wandb:
+  project: sb3_pendulum
+  tags: [quadratic, test]
